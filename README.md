@@ -9,5 +9,5 @@ To install BashPM, download BashL from [here](https://bashl-gh.github.io/repos/b
 Then, add this to your bashrc:
 ```shell
 export PATH="$HOME/.bashl:$PATH"
-source "$HOME/.bashl/std*"
+source $HOME/.bashl/std*
 ```
