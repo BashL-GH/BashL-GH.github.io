@@ -6,3 +6,8 @@ BashPM is part of the BashL Standard Library. It does not depend on any other pa
 This repo contains the mirror for the BashPM Package manager.
 ## How do I install BashPM?
 To install BashPM, download BashL from [here](https://bashl-gh.github.io/repos/bashl/packages/std.tar.gz) and unzip the files to `~/.bashl`.
+Then, add this to your bashrc:
+```shell
+export PATH="$HOME/.bashl:$PATH"
+source "~/.bashl/std"
+```
